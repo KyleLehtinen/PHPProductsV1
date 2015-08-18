@@ -6,10 +6,8 @@
 </head>
 
 <body>
-	
+	<p>This is a contact page.</p>
 </body>
 
-<footer>
-	&copy; 2015
-</footer>
+
 </html>

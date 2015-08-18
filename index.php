@@ -6,12 +6,13 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 	<?php 
-		echo "hello";
+	include('header.php');
+	include('footer.php');
+
 	?>
 
 </body>
-<footer>
-	&copy; 2015
-</footer>
+
 </html>
