@@ -1,7 +1,7 @@
 html {
 	background-image: url('images/dimension.png');
 }
-/*Need to streamline border/margins for proper proportion*/
+/*Need to tweak/streamline border/margins for proper proportion*/
 .header {
 	margin-bottom: 5px;
 	background-color: #FFF;
@@ -16,6 +16,7 @@ html {
 	margin-top: 0px;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 8px;
 	padding: 5px;
 }
 
@@ -25,13 +26,13 @@ html {
 	font-size: 18px;	
 }
 
-a {
+.nav a {
 	color: #FFF;
 }
 
 .header h3 {
 	margin-left: 10px;
-	margin-top: 5px;
+	margin-top: 6px;
 	margin-bottom: 0px;
 	font-weight: 100;
 }
