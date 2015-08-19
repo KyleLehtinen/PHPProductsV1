@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home View</title>
-	<link rel="stylesheet" href="styleem.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 

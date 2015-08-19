@@ -13,7 +13,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Product</title>
-	<link rel="stylesheet" href="styleem.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
