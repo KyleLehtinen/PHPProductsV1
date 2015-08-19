@@ -1,11 +1,17 @@
 <?php 
-	if ($_GET['id'] == '1') {
+	if (isset($_GET['id'])) {
+		$id = $_GET['id'];
+	} else {
+		$id = null;
+	}
+
+	if ($id == '1') {
   		$output = '<h1>You chose the Mac</h1>';
-	} else if ($_GET['id'] == '2') {
+	} else if ($id == '2') {
 		$output = '<h1>You chose Ubuntu</h1>';
-	} else if ($_GET['id'] == '3') {
+	} else if ($id == '3') {
   		$output = '<h1>You chose Windows</h1>';
-	} else { //For invalid requests
+	} else {
 		$output = '<h1>Product not found.</h1>';
 	}
 ?>
