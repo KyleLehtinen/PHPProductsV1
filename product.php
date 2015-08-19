@@ -6,11 +6,11 @@
 	}
 
 	if ($id == '1') {
-  		$output = '<h1>You chose the Mac</h1>';
+  		$output = '<h1>You chose the Mac!</h1>';
 	} else if ($id == '2') {
-		$output = '<h1>You chose Ubuntu</h1>';
+		$output = '<h1>You chose Ubuntu!</h1>';
 	} else if ($id == '3') {
-  		$output = '<h1>You chose Windows</h1>';
+  		$output = '<h1>You chose Windows!</h1>';
 	} else {
 		$output = '<h1>Product not found.</h1>';
 	}
