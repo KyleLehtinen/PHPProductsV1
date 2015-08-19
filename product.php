@@ -5,7 +5,7 @@
 		$output = '<h1>You chose Ubuntu</h1>';
 	} else if ($_GET['id'] == '3') {
   		$output = '<h1>You chose Windows</h1>';
-	} else {
+	} else { //For invalid requests
 		$output = '<h1>Product not found.</h1>';
 	}
 ?>
