@@ -1,10 +1,18 @@
 <?php 
-	if ($_GET['id'] == '1') {
-  		$output = '<h1>You chose the Mac</h1>';
-	} else if ($_GET['id'] == '2') {
-		$output = '<h1>You chose Ubuntu</h1>';
+	if (isset($_GET['id'])) {
+		$id = $_GET['id'];
 	} else {
-  		$output = '<h1>You chose Windows</h1>';
+		$id = null;
+	}
+
+	if ($id == '1') {
+  		$output = 'You chose the Mac!';
+	} else if ($id == '2') {
+		$output = 'You chose Ubuntu!';
+	} else if ($id == '3') {
+  		$output = 'You chose Windows!';
+	} else {
+		$output = 'Product not found.';
 	}
 ?>
 
@@ -17,11 +25,11 @@
 </head>
 <body>
 
-	<?php 
-		require('header.php'); 
-	  	echo $output;
-	  	require('footer.php');	
-	?>
+	<?php require('header.php'); ?>
+	
+	<h1><?php echo $output; ?></h1> 
+	
+	<?php require('footer.php'); ?>
 	
 </body>
 </html>
