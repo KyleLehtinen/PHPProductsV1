@@ -11,6 +11,7 @@
 	
 	<h1>Welcome to our shopping cart</h1>
 	<p>Do you want to see our list of <a href="browse.php">products</a></p>
+	<br>
 
 	<?php require('footer.php');?>
 
