@@ -16,7 +16,7 @@ body {
 	padding: .5em;
 }
 
-.nav li, .nav-item {
+.nav li, .nav a {
 	display: inline;
 	color: #FFF;
 }
