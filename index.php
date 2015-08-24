@@ -13,7 +13,7 @@
 	<p>Do you want to see our list of <a href="browse.php">products</a></p>
 	<br>
 
-	<?php require('footer.php');?>
+	<?php require('footer.php'); ?>
 
 </body>
 </html>

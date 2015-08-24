@@ -3,7 +3,7 @@ body {
 	font-size: 12pt;
 }
 
-.header.footer {
+.header, .footer {
 	background-color: #FFF;
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
